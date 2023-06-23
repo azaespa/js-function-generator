@@ -1,0 +1,15 @@
+body {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  div {
+    display: flex;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 24ch;
+  }
