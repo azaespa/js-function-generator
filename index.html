@@ -9,20 +9,42 @@
 </head>
 <body>
     <form>
-        <input type="text" id="empNumber" placeholder="Employee Number">
-        <input type="text" id="fName" placeholder="First Name">
-        <input type="text" id="lName" placeholder="Last Name">
-        <input type="text" id="hDate" placeholder="Hiring Date">
-        <input type="text" id="email" placeholder="Email">
-        <input type="text" id="username" placeholder="Username">
-      </form>
-      
-      <textarea id="result" readonly></textarea>
-      
       <div>
-        <button id="generate">Generate</button>
-        <button id="copy">Copy</button>
+        <label for="empNumber">Employee No:</label>
+        <input type="text" id="empNumber" placeholder="123456">
       </div>
+      <div>
+        <label for="fName">First Name:</label>
+        <input type="text" id="fName" placeholder="Juan">
+      </div>
+      <div>
+        <label for="lName">Last Name:</label>
+        <input type="text" id="lName" placeholder="Dela Cruz">
+      </div>
+      <div>
+        <label for="hDate">Hiring Date:</label>
+        <input type="text" id="hDate" placeholder="2023-06-26">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" placeholder="juan_dela_cruz@manulife.com">
+      </div>
+      <div>
+        <label for="username">Userid:</label>
+        <input type="text" id="username" placeholder="delacju">
+      </div>
+    </form>
+    
+    <div class="textarea-container">
+      <p>Function:</p>
+      <textarea id="result" readonly></textarea>
+    </div>
+
+    <div class="button-container">
+      <button id="generate">Generate</button>
+      <button id="copy">Copy</button>
+    </div>
+      
     <script src="./index.js"></script>
 </body>
 </html>
